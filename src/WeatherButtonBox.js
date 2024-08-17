@@ -7,7 +7,7 @@ const WeatherButtonBox = ({ cities, setCity }) => {
   return (
     <div className="WeatherButtonBox">
       <div>
-        <Button variant="warning" onClick={() => setCity(null)}>
+        <Button variant="warning" onClick={() => setCity("current")}>
           Current Location
         </Button>
         <div className="Button-arrow">arrow</div>
